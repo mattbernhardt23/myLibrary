@@ -1,0 +1,94 @@
+{
+  "books": [
+    {
+      "title": "33 Strategies of War",
+      "author": "Robert Greene",
+      "rating": 88.7,
+      "id": 1
+    },
+    {
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "rating": 89.3,
+      "id": 2
+    },
+    {
+      "title": "The Art of Worldly Wisdom",
+      "author": "Baltasar Gracian",
+      "rating": 93.4,
+      "id": 3
+    },
+    {
+      "title": "The Wisdom of Insecurity",
+      "author": "Alan Watts",
+      "rating": 94.1,
+      "id": 4
+    },
+    {
+      "title": "The Big Short",
+      "author": "Michael Lewis",
+      "rating": 86.7,
+      "id": 5
+    },
+    {
+      "title": "Liar's Poker",
+      "author": "Michael Lewis",
+      "rating": 80.1,
+      "id": 6
+    },
+    {
+      "title": "Money Ball",
+      "author": "Michael Lewis",
+      "rating": 84.7,
+      "id": 7
+    },
+    {
+      "title": "David vs. Goliath",
+      "author": "Malcolm Gladwell",
+      "rating": 82.3,
+      "id": 8
+    },
+    {
+      "title": "Outliers",
+      "author": "Malcolm Gladwell",
+      "rating": 83.9,
+      "id": 9
+    },
+    {
+      "title": "Blink!",
+      "author": "Malcolm Gladwell",
+      "rating": 80.9,
+      "id": 10
+    },
+    {
+      "title": "Flow",
+      "author": "Mihaly Csikszentmihalyi",
+      "rating": 90.1,
+      "id": 11
+    },
+    {
+      "title": "Born Standing Up ",
+      "author": "Steve Martin ",
+      "rating": 88.4,
+      "id": 12
+    },
+    {
+      "title": "Wilde in America ",
+      "author": "David Friedman",
+      "rating": 86.5,
+      "id": 13
+    },
+    {
+      "title": "The Innovators",
+      "author": "Walter Isaacson ",
+      "rating": 89.6,
+      "id": 14
+    },
+    {
+      "title": "Zen Mind, Beginner's Mind",
+      "author": "Shunryū Suzuki",
+      "rating": 92.6,
+      "id": 15
+    }
+  ]
+}

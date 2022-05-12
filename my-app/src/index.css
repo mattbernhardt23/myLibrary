@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 768px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 4px black solid;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header,
+h1 {
+  color: red;
+  margin-bottom: 5vh;
+  font-size: 275%;
+}
+
+.header,
+h2 {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 1.2em;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-list {
+  display: grid;
+}
+
+.card {
+  border-bottom: 2px white solid;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-columns: 100px 3fr 50px;
+  grid-template-rows: 100px;
+  padding: 1vh;
+  margin: 1vh;
+}
+
+.card2 {
+  border-bottom: 2px black solid;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-rows: 50px 115px;
+  padding: 0vh 0.75vw;
+  margin: 1vh;
+}
+
+.card.inputs {
+  border: white;
+}
+
+.add-header {
+  text-align: center;
+}
+
+.add-h1 {
+  text-align: center;
+  color: black;
+}
+
+.add-card {
+  border-bottom: 2px white solid;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-columns: 100px 3fr 75px;
+  grid-template-rows: 100px;
+  padding: 0vh;
+  margin: 0vh;
+}
+
+.add-rating {
+  border: 2px red solid;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: 2vw;
+  font-weight: 700;
+  font-size: xx-large;
+  display: flex;
+  padding-left: 1vw;
+}
+
+.add-title {
+  font-size: 2em;
+  width: 85%;
+  margin: 1.5vh;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding-left: 1vw;
+}
+
+.add-author {
+  font-size: 1.2em;
+  margin-left: 1vw;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding-left: 1vw;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.book-stats {
+  color: white;
+  border-bottom: 2px white solid;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1vw;
+  margin: 0.25vw 1vh;
+}
+
+.card.reverse {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.rating {
+  border: 2px red solid;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+  display: flex;
+}
+
+p {
+  margin: auto;
+}
+
+.book-info {
+  margin-top: 2%;
+  padding: 1vh;
+  padding-left: 2vw;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.author {
+  font-size: 1.2em;
+}
+
+.close {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 25%;
+}
+
+.delete-button.reverse {
+  border-radius: 25%;
+  border-color: red;
+  background-color: black;
+  color: red;
+}
+
+.delete-button {
+  background-color: white;
+  color: red;
+  border-color: red;
+}
+
+.book-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+  border-bottom: black solid;
+  background-color: white;
+  color: black;
+}
+
+.book-entry {
+  color: white;
+}
+
+.btn {
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #202142;
+}
+
+.btn-secondary {
+  background: red;
+  color: black;
+  border-radius: 15px;
+  padding: 2vh;
+}
+
+.about-link {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+}
+
+.question-mark {
+  color: red;
+  margin-left: auto;
+  padding-right: 2vw;
+}
+
+.about {
+  text-align: center;
+}
+
+.details {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
